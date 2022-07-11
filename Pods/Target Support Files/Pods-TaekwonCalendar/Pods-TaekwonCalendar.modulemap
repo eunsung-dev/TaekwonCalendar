@@ -1,0 +1,6 @@
+framework module Pods_TaekwonCalendar {
+  umbrella header "Pods-TaekwonCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

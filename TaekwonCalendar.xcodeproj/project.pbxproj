@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F02B8BD297859FAA7BAB95F /* Pods_TaekwonCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFA982FD4D5BF87048860F4 /* Pods_TaekwonCalendar.framework */; };
+		91140ED7287415A400F4F261 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91140ED6287415A400F4F261 /* ContentViewModel.swift */; };
+		91140ED92874768200F4F261 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91140ED82874768200F4F261 /* LoginView.swift */; };
+		914640452879705F00A83861 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914640442879705F00A83861 /* Student.swift */; };
+		91520D0A2875CE81009B412B /* StudentIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91520D092875CE81009B412B /* StudentIDView.swift */; };
+		918DA162287410160075ACBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 918DA161287410160075ACBD /* GoogleService-Info.plist */; };
+		91A4AD5E28781B1700645FA4 /* ScanDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A4AD5D28781B1700645FA4 /* ScanDocumentView.swift */; };
+		91FED3BF282B949E006E28D7 /* TaekwonCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED3BE282B949E006E28D7 /* TaekwonCalendarApp.swift */; };
+		91FED3C1282B949E006E28D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED3C0282B949E006E28D7 /* ContentView.swift */; };
+		91FED3C3282B949F006E28D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FED3C2282B949F006E28D7 /* Assets.xcassets */; };
+		91FED3C6282B949F006E28D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FED3C5282B949F006E28D7 /* Preview Assets.xcassets */; };
+		91FED3CF282B9E93006E28D7 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED3CE282B9E93006E28D7 /* CustomDatePicker.swift */; };
+		91FED3D3282BA220006E28D7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED3D2282BA220006E28D7 /* DateValue.swift */; };
+		91FED3D5282BAA9F006E28D7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FED3D4282BAA9F006E28D7 /* Task.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FF1DFD1A8B823D113349C87 /* Pods-TaekwonCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaekwonCalendar.debug.xcconfig"; path = "Target Support Files/Pods-TaekwonCalendar/Pods-TaekwonCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		5C9C251BA5D5B31944428A6B /* Pods-TaekwonCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaekwonCalendar.release.xcconfig"; path = "Target Support Files/Pods-TaekwonCalendar/Pods-TaekwonCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		91140ED6287415A400F4F261 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		91140ED82874768200F4F261 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		914640442879705F00A83861 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		91520D092875CE81009B412B /* StudentIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentIDView.swift; sourceTree = "<group>"; };
+		918DA161287410160075ACBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91A4AD5D28781B1700645FA4 /* ScanDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDocumentView.swift; sourceTree = "<group>"; };
+		91AB6B4D28733C2700FF2F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		91FED3BB282B949E006E28D7 /* TaekwonCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaekwonCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FED3BE282B949E006E28D7 /* TaekwonCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaekwonCalendarApp.swift; sourceTree = "<group>"; };
+		91FED3C0282B949E006E28D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91FED3C2282B949F006E28D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FED3C5282B949F006E28D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91FED3CE282B9E93006E28D7 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		91FED3D2282BA220006E28D7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		91FED3D4282BAA9F006E28D7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		ABFA982FD4D5BF87048860F4 /* Pods_TaekwonCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaekwonCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FED3B8282B949E006E28D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F02B8BD297859FAA7BAB95F /* Pods_TaekwonCalendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91140ED52874156F00F4F261 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				91140ED6287415A400F4F261 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		91FED3B2282B949E006E28D7 = {
+			isa = PBXGroup;
+			children = (
+				91FED3BD282B949E006E28D7 /* TaekwonCalendar */,
+				91FED3BC282B949E006E28D7 /* Products */,
+				BC17EEB2CF2FBEC147BF4C32 /* Pods */,
+				EAE063B4975CCCD6D9E7152E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91FED3BC282B949E006E28D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FED3BB282B949E006E28D7 /* TaekwonCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FED3BD282B949E006E28D7 /* TaekwonCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				918DA161287410160075ACBD /* GoogleService-Info.plist */,
+				91AB6B4D28733C2700FF2F48 /* Info.plist */,
+				91FED3D1282BA1FF006E28D7 /* View */,
+				91FED3D0282BA1F5006E28D7 /* Model */,
+				91140ED52874156F00F4F261 /* ViewModel */,
+				91FED3C2282B949F006E28D7 /* Assets.xcassets */,
+				91FED3C4282B949F006E28D7 /* Preview Content */,
+			);
+			path = TaekwonCalendar;
+			sourceTree = "<group>";
+		};
+		91FED3C4282B949F006E28D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91FED3C5282B949F006E28D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91FED3D0282BA1F5006E28D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91FED3D2282BA220006E28D7 /* DateValue.swift */,
+				91FED3D4282BAA9F006E28D7 /* Task.swift */,
+				914640442879705F00A83861 /* Student.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91FED3D1282BA1FF006E28D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91FED3CE282B9E93006E28D7 /* CustomDatePicker.swift */,
+				91FED3C0282B949E006E28D7 /* ContentView.swift */,
+				91FED3BE282B949E006E28D7 /* TaekwonCalendarApp.swift */,
+				91140ED82874768200F4F261 /* LoginView.swift */,
+				91520D092875CE81009B412B /* StudentIDView.swift */,
+				91A4AD5D28781B1700645FA4 /* ScanDocumentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC17EEB2CF2FBEC147BF4C32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FF1DFD1A8B823D113349C87 /* Pods-TaekwonCalendar.debug.xcconfig */,
+				5C9C251BA5D5B31944428A6B /* Pods-TaekwonCalendar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAE063B4975CCCD6D9E7152E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA982FD4D5BF87048860F4 /* Pods_TaekwonCalendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FED3BA282B949E006E28D7 /* TaekwonCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FED3C9282B949F006E28D7 /* Build configuration list for PBXNativeTarget "TaekwonCalendar" */;
+			buildPhases = (
+				E3CEEDD7CC240AE8E0582123 /* [CP] Check Pods Manifest.lock */,
+				91FED3B7282B949E006E28D7 /* Sources */,
+				91FED3B8282B949E006E28D7 /* Frameworks */,
+				91FED3B9282B949E006E28D7 /* Resources */,
+				D67BF23DB1E1461E7D47FAA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaekwonCalendar;
+			productName = TaekwonCalendar;
+			productReference = 91FED3BB282B949E006E28D7 /* TaekwonCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FED3B3282B949E006E28D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					91FED3BA282B949E006E28D7 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 91FED3B6282B949E006E28D7 /* Build configuration list for PBXProject "TaekwonCalendar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FED3B2282B949E006E28D7;
+			productRefGroup = 91FED3BC282B949E006E28D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FED3BA282B949E006E28D7 /* TaekwonCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FED3B9282B949E006E28D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FED3C6282B949F006E28D7 /* Preview Assets.xcassets in Resources */,
+				918DA162287410160075ACBD /* GoogleService-Info.plist in Resources */,
+				91FED3C3282B949F006E28D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D67BF23DB1E1461E7D47FAA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaekwonCalendar/Pods-TaekwonCalendar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaekwonCalendar/Pods-TaekwonCalendar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaekwonCalendar/Pods-TaekwonCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CEEDD7CC240AE8E0582123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaekwonCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FED3B7282B949E006E28D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FED3C1282B949E006E28D7 /* ContentView.swift in Sources */,
+				91140ED92874768200F4F261 /* LoginView.swift in Sources */,
+				91FED3D3282BA220006E28D7 /* DateValue.swift in Sources */,
+				914640452879705F00A83861 /* Student.swift in Sources */,
+				91140ED7287415A400F4F261 /* ContentViewModel.swift in Sources */,
+				91A4AD5E28781B1700645FA4 /* ScanDocumentView.swift in Sources */,
+				91FED3D5282BAA9F006E28D7 /* Task.swift in Sources */,
+				91520D0A2875CE81009B412B /* StudentIDView.swift in Sources */,
+				91FED3BF282B949E006E28D7 /* TaekwonCalendarApp.swift in Sources */,
+				91FED3CF282B9E93006E28D7 /* CustomDatePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91FED3C7282B949F006E28D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FED3C8282B949F006E28D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FED3CA282B949F006E28D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF1DFD1A8B823D113349C87 /* Pods-TaekwonCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TaekwonCalendar/Preview Content\"";
+				DEVELOPMENT_TEAM = TZGL6R438Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaekwonCalendar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunsung-dev.TaekwonCalendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FED3CB282B949F006E28D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9C251BA5D5B31944428A6B /* Pods-TaekwonCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TaekwonCalendar/Preview Content\"";
+				DEVELOPMENT_TEAM = TZGL6R438Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaekwonCalendar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunsung-dev.TaekwonCalendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FED3B6282B949E006E28D7 /* Build configuration list for PBXProject "TaekwonCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FED3C7282B949F006E28D7 /* Debug */,
+				91FED3C8282B949F006E28D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FED3C9282B949F006E28D7 /* Build configuration list for PBXNativeTarget "TaekwonCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FED3CA282B949F006E28D7 /* Debug */,
+				91FED3CB282B949F006E28D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FED3B3282B949E006E28D7 /* Project object */;
+}
